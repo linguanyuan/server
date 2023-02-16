@@ -1,0 +1,93 @@
+<!--
+ * @Description: 这是***页面（组件）
+ * @Date: 2023-02-13 15:06:12
+ * @Author: linguanyuan
+ * @LastEditors: linguanyuan
+ * @LastEditTime: 2023-02-13 16:35:09
+-->
+<!DOCTYPE html>
+<html style="overflow-x: hidden">
+  <head>
+    <style>
+      img,
+      input {
+        border: none;
+        vertical-align: middle;
+        height: auto;
+        max-width: 100%;
+      }
+      a {
+        text-decoration: none; /* 去除默认的下划线 */
+        outline: none; /* 去除旧版浏览器的点击后的外虚线框 */
+        color: #000; /* 去除默认的颜色和点击后变化的颜色 */
+      }
+      .img-xys {
+        width: 100%;
+      }
+      .header {
+        display: flex;
+        justify-content: space-between;
+        padding: 10px 150px 0 150px;
+        margin-bottom: 10px;
+      }
+      .logo {
+        padding-top: 10px;
+      }
+      .nav {
+        display: flex;
+      }
+      .nav p {
+        font-weight: 600;
+        text-align: center;
+        padding-right: 100px;
+      }
+      .main {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+      }
+      .nowTime {
+        height: 59px;
+        background: rgb(18, 24, 60);
+        text-align: center;
+        line-height: 59px;
+      }
+      .footer {
+        width: 100%;
+      }
+    </style>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>首页</title>
+  </head>
+  <body>
+    <div id="">
+      <header class="header">
+        <div class="logo">
+          <img src="./assets/image/logo.png" alt="" />
+        </div>
+        <div class="nav">
+          <p><a>首页</a></p>
+          <p><a href="#three">核心优势</a></p>
+          <p><a href="#four">产品服务</a></p>
+          <p><a href="#five">关于我们</a></p>
+        </div>
+      </header>
+      <div><img src="./assets/image/2.png" class="img-xys" alt="" /></div>
+      <div class="main">
+        <div id="three"><img src="./assets/image/3.png" alt="" /></div>
+        <div id="four"><img src="./assets/image/4.png" alt="" /></div>
+        <div id="five"><img src="./assets/image/5.png" alt="" /></div>
+      </div>
+      <footer>
+        <div><img src="./assets/image/6.png" class="img-xys" alt="" /></div>
+        <div class="nowTime">
+          <a href="https://beian.miit.gov.cn/" target="_blank"
+            ><div style="color: #FFFFFF;">粤ICP备20063977号-1</div>
+          </a>
+        </div>
+      </footer>
+    </div>
+  </body>
+</html>
